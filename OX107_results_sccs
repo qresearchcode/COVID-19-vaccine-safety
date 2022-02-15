@@ -2,9 +2,9 @@
 /*
 filename 	OX107_results_sccs.do
 author 		JHC/MP/CC
-date 		  5.1.2022
+date 		5.1.2022
 input 		tables\nims_table3
-			    models\OX107_cs_model_`m'_`y'
+		models\OX107_cs_model_`m'_`y'
 tables		tables\OX107_sccs_results
 */
 
