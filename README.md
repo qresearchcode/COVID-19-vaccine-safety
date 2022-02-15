@@ -80,6 +80,7 @@ Statistical code for Covid-19 vaccine safety analyses
 >>***OX107_sample_folder/moderls*** -- save models results as Stata datasets
 >>
 
-
+### Funding
+Health Data Research UK
 
 
