@@ -40,8 +40,45 @@ Statistical code for Covid-19 vaccine safety analyses
 
 ## Code details
 
-
-
+>**Simulated dataset:** sample_sccs_csv, includes
+>
+>>***nimspatid:*** patient id (1:n)
+>>
+>>***vaccine_date_1:*** date of vaccine first dose
+>>
+>>***vaccine_date_2:*** date of vaccine second dose
+>>
+>>***vaccine_date_3:*** date of vaccine third dose
+>>
+>>***vaccine_type_1:*** type of vaccine first dose
+>>
+>>***vaccine_type_2:*** type of vaccine second dose
+>>
+>>***vaccine_type_3:*** type of vaccine third dose
+>>
+>>***date_positive:*** date of the earliest positive RC-PCR test
+>>
+>>***sample_date:*** date of earlist hospital admission or death from the outcome
+>>
+>>***onsdateofdeath:*** date of death
+>>
+>>***sample_ons:*** 1 if patient died drom the outcome on the death certificate
+>>
+>>***sample_period1:*** 1 if patients had the outcome in the study period
+>
+>Use **sample_master:** run all dofiles to format date, run the models and create table for results
+>
+>Need main folder ***OX107_sample_folder*** including 
+>>***OX107_sample_folder/dofiles*** -- save dofiles
+>>
+>>***OX107_sample_folder/tables*** -- save tables as Stata datasets
+>>
+>>***OX107_sample_folder/caseseries*** -- save datasets
+>>
+>>***OX107_sample_folder/estimates*** -- save Stata estimates of the models
+>>
+>>***OX107_sample_folder/moderls*** -- save models results as Stata datasets
+>>
 
 
 
