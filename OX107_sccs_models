@@ -1,7 +1,7 @@
 /*
 filename 	OX107_sccs_models.do
 author 		MP/JHC/CC 
-date 		  02.05.2021 /// 03.06.2021 /// 27.10.2021 /// 5.1.2022
+date 		5.1.2022
 *notes		"exposed" variables have day of vaccination as separate variable
 			exposed 1 = Oxford
 			exposed 2 = Pfizer
@@ -21,7 +21,7 @@ foreach y in $study_outcomes_all {
 	use caseseries\OX107_caseseries_nims5_`y'_3dose, clear
 	
 	*** Overall 28 days 	
-	do dofiles_1\OX107_caseseries_variables.do
+	do dofiles\OX107_caseseries_variables.do
 	
   foreach m in $models_all {
 	
